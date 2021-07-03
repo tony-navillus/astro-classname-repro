@@ -1,5 +1,7 @@
 ---
 const { title, class: className } = Astro.props;
+
+console.log(`<Heading> class="${className}"`);
 ---
 
 <h1 class={className}>{title}</h1>
